@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">MobiTask</string>
+    <string name="home">Home</string>
+    <string name="news">News</string>
+    <string name="quiz">Quiz</string>
+    <string name="title_activity_home_bottom_menu">HomeBottomMenu</string>
+    <string name="title_home">Home</string>
+    <string name="complete_task">Complete Task</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="amazon_desc">Download, Register, Use and Earn</string>
+    <string name="your_score_is_15_points">Your score is: 15 points</string>
+    <string name="Rupee">\u20B9</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bulleted_list">
+        <li>There are no fees charged when withdrawing funds from your account.</li>\n
+    </string>
+    <string name="bulleted_list1">
+
+        <li>Once the withdrawal request is filed, it will be listed in your pending withdrawals section. You can view it anytime to check the status of your withdrawal request.</li>\n
+    </string>
+    <string name="bulleted_list2">
+        <li>Ensure that the details you provided are correct to avoid any delays in the processing of your withdrawal request.</li>\n
+    </string>
+    <string name="bulleted_list3">
+        <li>For first-time withdrawals, we ask for your patience as it takes 15 days to clear your account before your request gets processed.</li>
+    </string>
+
+    <string name="bulleted_list_quiz">
+        <li>There are 15 Questions in total.</li>\n
+    </string>
+    <string name="bulleted_list1_quiz">
+
+        <li>You can only select one category.</li>\n
+    </string>
+    <string name="bulleted_list2_quiz">
+        <li>For each correct Question you will be awarded 1 mark.</li>\n
+    </string>
+    <string name="bulleted_list3_quiz">
+        <li>Result will be shown after you complete the Quiz.</li>
+    </string>
+
+
+    <string name="bulleted_list_warning">
+        <li>You might have not completed the task.</li>\n
+    </string>
+    <string name="bulleted_list1_warning">
+
+        <li>You might have completed the task via some other source.</li>\n
+    </string>
+    <string name="bulleted_list2_warning">
+        <li>Task might take some time to complete.(Please read task description.)</li>\n
+    </string>
+
+    <string name="bulleted_list_how">
+        <li>Share this code to your friends.</li>\n
+    </string>
+    <string name="bulleted_list1_how">
+
+        <li>For each referral you will get 10 points and your friend will get 20 points.</li>\n
+    </string>
+    <string name="bulleted_list2_how">
+        <li>You can refer unlimited friends.</li>\n
+    </string>
+    <string name="bulleted_list3_how">
+        <li>Enjoy Earnings.</li>
+    </string>
+    <!-- For Login and Signup -->
+    <string name="hint_email">Email</string>
+    <string name="hint_user_name">User Name</string>
+    <string name="hint_mobile">Mobile</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_pwd">Confirm Password</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+
+    <!-- .........Below msg for OTP ......  -->
+
+    <string name="otp_verification">OTP verification</string>
+    <string name="otp_msg">Relax. We will automatically validate OTP.</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="confirm">Confirm</string>
+    <string name="resend">Resend OTP</string>
+
+
+</resources>

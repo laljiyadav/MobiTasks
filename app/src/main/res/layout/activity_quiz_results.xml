@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.erlaljiyadav.mobitask.activites.QuizResults">
+<include layout="@layout/toolbar"/>
+
+<TextView
+    android:fontFamily="@font/roboto"
+    android:id="@+id/scoreheadimg"
+    android:layout_margin="10dp"
+    android:padding="7dp"
+    android:textSize="16dp"
+    android:textAlignment="center"
+    android:text="@string/your_score_is_15_points"
+    android:background="@drawable/btn_boarder"
+    android:gravity="center"
+    android:layout_width="300dp"
+    android:layout_height="40dp" />
+<TextView
+    android:fontFamily="@font/roboto"
+    android:layout_marginTop="10dp"
+    android:padding="5dp"
+    android:textSize="15dp"
+    android:textAlignment="center"
+    android:text="Total Questions:15"
+    android:layout_gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+<LinearLayout
+    android:weightSum="4"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+    <View
+        android:layout_width="2dp"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:fontFamily="@font/roboto"
+        android:id="@+id/correctScore"
+        android:background="@drawable/btn_boarder"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:text="13\nCorrect"
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="5dp"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:fontFamily="@font/roboto"
+        android:id="@+id/incorrectScore"
+        android:background="@drawable/btn_boarder"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:text="7\nIncorrect"
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="5dp"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:fontFamily="@font/roboto"
+        android:id="@+id/missedscore"
+        android:background="@drawable/btn_boarder"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:text="0\nMissed"
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="5dp"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:fontFamily="@font/roboto"
+        android:id="@+id/acurracy"
+        android:background="@drawable/btn_boarder"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:text="13\nAccuracy"
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="2dp"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
+
+<RelativeLayout
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/addquizResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        ads:adSize="280x280"
+        ads:adUnitId="ca-app-pub-2138537863328187/8316597317"/>
+
+</RelativeLayout>
+
+
+</LinearLayout>

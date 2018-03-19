@@ -36,7 +36,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".activites.QuizStarts" />
-        <activity android:name=".activites.QuizResults"></activity>
+        <activity android:name=".activites.QuizResults" />
+        <activity android:name=".activites.GitTest"></activity>
     </application>
 
 </manifest>
